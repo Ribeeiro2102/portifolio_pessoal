@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* Define o padding e a margin como padrão 0 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Define a cor e a fonte do conteúdo*/
+
+body {
+    background-image: linear-gradient(to right, #60BF81,#347355, #25553f);
+    margin-bottom: 5em;
+}
+
+/*  Modifica o estilo do cabeçalho */
+header {
+    color: white;
+    background-image: linear-gradient(to right, #60BF81,#347355, #25553f);
+    box-shadow: 1px 1px 4px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+nav {
+    text-align: center; /* Centraliza o texto dentro da área de navegação */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha, ao invés de em uma coluna */
+    padding-right: 30px;
+    padding: 10px;
+}
+
+/* Faz um animação no nav */
+nav li:hover {
+    background-color: #25553f;
+    margin-left: 12px;
+    transition-duration: 0.7s; /* Define a duração da transição  */
+    border-radius: 5px;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6em;
+    color: #283b4c;
+    font-size: 3em;
+    /* Define a altura do cabeçalho principal como 100% da altura da viewport */
+    height: 100vh; 
+}
+
+  /* Coloca linha embaixo do título quando passar o mouse por cima*/
+h1:hover{ 
+    text-decoration: underline;
+}

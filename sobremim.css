@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*Define a cor e a fonte do conteúdo*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #60BF81,#347355, #25553f);
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: white;
+}
+
+/*Define o estilo do conteúdo principal*/
+main {
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+main > p {
+    color: black;
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.4em;
+
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/*Muda a cor do link ao passar o mouse por cima*/
+a:hover {
+    color: rgba(255, 255, 255, 0.675);
+}
+
